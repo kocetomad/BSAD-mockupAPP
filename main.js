@@ -9,8 +9,9 @@ function createWindow() {
     },
   });
   win.maximize();
+  win.removeMenu(null);
   win.show();
-
+  
   // and load the index.html of the app.
   win.loadFile("views/LoginForm/index.html");
 

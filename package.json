@@ -5,12 +5,13 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "start-web" : "node server.js"
+    "start-web": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.0"
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
   },
   "dependencies": {
     "express": "^4.17.1"
