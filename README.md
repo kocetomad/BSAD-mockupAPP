@@ -1,7 +1,9 @@
 # How to run:
 this project requires NodeJS and npm
 
-to run the desktop app: 
+to run the desktop app:
+
+``` npm i```
 
  ``` npm start```
 
