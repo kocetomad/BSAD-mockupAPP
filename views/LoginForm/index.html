@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <script src="controllers/auth.js"></script> 
+<script src="controllers/auth.js"></script>
 
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <title>BSAD-APP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,600"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet" type="text/css"/>
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
-      
+    <link href="./style.css" rel="stylesheet"/>
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row align-items-center" style="height: 100vh;">
-        <div class="col" id="backgroundCol"style="height: 100%;">
-          <!-- Here we have the image background thingy-->
-          <div class="image_background"></div>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row align-items-center" style="height: 100vh;">
+        <div class="col" id="backgroundCol" style="height: 100%;">
+            <!-- Here we have the image background thingy-->
+            <div class="image_background"></div>
         </div>
-        <div class="col p-5" style="height: 100%;">
-          <!-- Here we have the login side -->
-          <div class="row">
-            <div class="col align-self-center">
-              <h3 class="text-center">DWK Incident Respone</h2>
-            </div>
-          </div>
-          <div class="row pt-5" style="height: 75%;">
-            <div class="col">
-              <h1 class="pbt-3">Login</h1>
-              <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Username</label>
-                  <input type="text" class="form-control" id="loginFormUsername">
+        <div class="col p-5">
+            <!-- Here we have the login side -->
+            <div class="row">
+                <div class="col align-self-center">
+                    <h3 class="text-center">DWK Incident Response</h3>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="loginFormPassword">
-                </div>
-                <button type="submit" id="loginButton" class="btn btn-primary">Login</button>
-              </form>
             </div>
-          </div>
-
+            <div class="row pt-5" style="height: 75%;">
+                <div class="col">
+                    <h1 class="pbt-3">Login</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Username</label>
+                            <input class="form-control" id="loginFormUsername" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input class="form-control" id="loginFormPassword" type="password">
+                        </div>
+                        <button class="btn btn-primary" id="loginButton" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
