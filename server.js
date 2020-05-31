@@ -16,4 +16,8 @@ app.use("/ServiceDesk/index.html", express.static("views/ServiceDesk"));
 
 app.use("/Technician/index.html", express.static("views/Technician"));
 
+app.use("/Incident /NewIncident/index.html", express.static("views/Incident /NewIncident"));
+
+app.use("/Incident /AllIncidents/index.html", express.static("views/Incident /AllIncidents"));
+
 app.listen(3000);
