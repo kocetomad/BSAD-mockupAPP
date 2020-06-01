@@ -1,3 +1,7 @@
+body, html {
+    height: 100vh;
+}
+
 #backgroundCol {
     background-color: #3f003f;
 }
@@ -17,5 +21,14 @@
 }
 
 .incident-card-body {
-    padding-top: 8rem;
+    padding-top: 9rem;
+}
+
+.assignment-card {
+    width: 25rem;
+    height: 18rem;
+}
+
+.assignment-card-body {
+    padding-top: 7rem;
 }
