@@ -14,12 +14,3 @@ body, html {
 .nav-background {
     background-color: #3f003f;
 }
-
-.incident-cards {
-    width: 25rem;
-    height: 25rem;
-}
-
-.incident-card-body {
-    padding-top: 9rem;
-}
