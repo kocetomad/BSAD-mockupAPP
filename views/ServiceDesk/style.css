@@ -1,3 +1,7 @@
+body, html {
+    height: 100vh;
+}
+
 #backgroundCol {
     background-color: #3f003f;
 }
@@ -17,5 +21,5 @@
 }
 
 .incident-card-body {
-    padding-top: 8rem;
+    padding-top: 9rem;
 }
