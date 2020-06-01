@@ -1,1 +1,85 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>BSAD-APP</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet" type="text/css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-dark nav-background">
+    <span class="navbar-brand mb-0 h1">DWK</span>
+</nav>
+<div class="container-fluid" style="height: calc(100% - 56px);">
+    <div class="row h-100 align-items-center justify-content-center">
+        <div class="col p-5">
+            <div class="card">
+                <h3 class="card-header">Incidents</h3>
+                <div class="card-body">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                        <tr class="table-primary">
+                            <th scope="col"># Incident ID</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">User Submitted</th>
+                            <th scope="col">Reference User</th>
+                            <th scope="col">Date/Time Submitted</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Date/Time Closed</th>
+                            <th scope="col">Time To Resolve</th>
+                            <th scope="col">Priority</th>
+                            <th scope="col">Severity</th>
+                            <th scope="col">Impact</th>
+                            <th scope="col">Assigned User</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Customer login times are very high.</td>
+                            <td>peter.williams</td>
+                            <td>@peter.williams</td>
+                            <td>27/05/2020 13:00:04</td>
+                            <td>closed</td>
+                            <td>27/05/2020 14:21:54</td>
+                            <td>1:21:50</td>
+                            <td>P1</td>
+                            <td>S2</td>
+                            <td>IMP2</td>
+                            <td>NONE</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>HR Timesheets display incorrect dates.</td>
+                            <td>jane.fenton</td>
+                            <td>sarah.nickelson</td>
+                            <td>29/05/2020 12:10:17</td>
+                            <td>closed</td>
+                            <td>31/05/2020 14:51:12</td>
+                            <td>50:40:55</td>
+                            <td>P3</td>
+                            <td>S3</td>
+                            <td>IMP3</td>
+                            <td>NONE</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
