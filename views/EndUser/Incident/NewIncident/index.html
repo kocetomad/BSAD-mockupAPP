@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet" type="text/css"/>
     <!-- Latest compiled and minified CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet"/>
+    <link href="../../../styles/style.css" rel="stylesheet"/>
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,6 +17,8 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-dark nav-background">
@@ -49,16 +51,6 @@
                             </div>
                             <div class="col">
                                 <div class="form-group">
-                                    <label for="newIncidentPriorityLevel">Incident Priority Level</label>
-                                    <select id="newIncidentPriorityLevel" class="form-control">
-                                        <option selected>P1</option>
-                                        <option>P2</option>
-                                        <option>P3</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-group">
                                     <label for="newIncidentSeverityLevel">Incident Severity Level</label>
                                     <select id="newIncidentSeverityLevel" class="form-control">
                                         <option selected>S1</option>
@@ -67,8 +59,18 @@
                                     </select>
                                 </div>
                             </div>
-
                             <div class="col">
+                                <div class="form-group">
+                                    <label for="newIncidentPriorityLevel">Incident Priority Level</label>
+                                    <select class="form-control" id="newIncidentPriorityLevel">
+                                        <option selected>P1</option>
+                                        <option>P2</option>
+                                        <option>P3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col" id="priorityCheck">
                                 <div class="row">
                                     <div class="col">
                                         <p>Incident Priority</p>
