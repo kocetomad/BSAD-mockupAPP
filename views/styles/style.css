@@ -32,3 +32,8 @@ body, html {
 .assignment-card-body {
     padding-top: 7rem;
 }
+
+.table-primary th {
+    background-color: #3f003f;
+    color: white;
+}
