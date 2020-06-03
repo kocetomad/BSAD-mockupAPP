@@ -24,6 +24,9 @@
 <nav class="navbar navbar-dark nav-background">
     <span class="navbar-brand mb-0 h1">DWK</span>
 </nav>
+<div style="padding: 10pt;">
+    <button class="btn btn-primary" style="top: 100pt; left: 10pt" onclick="returnToHome()">Back</button>
+</div>
 <div class="container" style="height: calc(100% - 56px);">
     <div class="row h-100 align-items-center justify-content-center">
         <div class="col p-5">
@@ -43,9 +46,9 @@
                                 <div class="form-group">
                                     <label for="newIncidentImpactLevel">Incident Impact Level</label>
                                     <select id="newIncidentImpactLevel" class="form-control">
-                                        <option selected>IMP1</option>
+                                        <option>IMP1</option>
                                         <option>IMP2</option>
-                                        <option>IMP3</option>
+                                        <option selected>IMP3</option>
                                     </select>
                                 </div>
                             </div>
@@ -53,9 +56,9 @@
                                 <div class="form-group">
                                     <label for="newIncidentSeverityLevel">Incident Severity Level</label>
                                     <select id="newIncidentSeverityLevel" class="form-control">
-                                        <option selected>S1</option>
+                                        <option>S1</option>
                                         <option>S2</option>
-                                        <option>S3</option>
+                                        <option selected>S3</option>
                                     </select>
                                 </div>
                             </div>
@@ -63,9 +66,9 @@
                                 <div class="form-group">
                                     <label for="newIncidentPriorityLevel">Incident Priority Level</label>
                                     <select class="form-control" id="newIncidentPriorityLevel">
-                                        <option selected>P1</option>
+                                        <option>P1</option>
                                         <option>P2</option>
-                                        <option>P3</option>
+                                        <option selected>P3</option>
                                     </select>
                                 </div>
                             </div>
@@ -94,7 +97,7 @@
                                    placeholder="Reason">
                         </div>
                     </form>
-                    <button href="#" class="btn btn-primary">Submit</button>
+                        <button href="#" class="btn btn-primary" onclick="formReturn()">Submit</button> <span id="submitText" style="padding-left: 50pt; display: none; font-weight: bold;">Thank you. Your incident has been submitted. Returning you to home page...</span>
                 </div>
             </div>
         </div>

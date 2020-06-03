@@ -24,6 +24,9 @@
 <nav class="navbar navbar-dark nav-background">
     <span class="navbar-brand mb-0 h1">DWK</span>
 </nav>
+<div style="padding: 10pt;">
+    <button class="btn btn-primary" style="top: 100pt; left: 10pt" onclick="returnToHome()">Back</button>
+</div>
 <div class="container" style="height: calc(100% - 56px);">
     <div class="row h-100 align-items-center justify-content-center">
         <div class="col p-5">
@@ -94,7 +97,7 @@
                                    placeholder="Name of employee">
                         </div>
                     </form>
-                    <button href="#" class="btn btn-primary">Submit</button>
+                    <button href="#" class="btn btn-primary" onclick="formReturn()">Submit</button> <span id="submitText" style="padding-left: 50pt; display: none; font-weight: bold;">Thank you. Your incident has been submitted. Returning you to home page...</span>
                 </div>
             </div>
         </div>

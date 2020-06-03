@@ -36,7 +36,7 @@ function formReturn() {
 }
 
 function returnToHome() {
-    location.href = "../../index.html";
+    location.href = "../index.html";
 }
 
 document.addEventListener("DOMContentLoaded", function () {
