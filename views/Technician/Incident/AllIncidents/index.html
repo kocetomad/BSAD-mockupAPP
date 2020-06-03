@@ -24,8 +24,8 @@
 <nav class="navbar navbar-dark nav-background">
     <span class="navbar-brand mb-0 h1">DWK</span>
 </nav>
-<div style="padding: 10pt;">
-    <button class="btn btn-primary" style="top: 100pt; left: 10pt" onclick="returnToHome()">Back</button>
+<div class="container-fluid pt-3">
+    <button class="btn btn-primary" onclick="returnToHome()">Back</button>
 </div>
 <div class="container-fluid" style="height: calc(50%);">
     <div class="row h-100 align-items-center justify-content-center">
@@ -216,12 +216,15 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" style="margin-left: 50px; margin-right: 10px;" onclick="generateReport()">Generate Report (Selected)</button> <button class="btn btn-primary" onclick="generateReport()">Generate Report (All)</button>
+                    <h4 id="reportGeneratedLabel" style="margin-left:20%; display: none;">Report Generated. Saved to default location.</h4>
+                </div>
             </div>
         </div>
     </div>
     <div class="row h-100 align-items-center justify-content-left">
-        <button class="btn btn-primary" style="margin-left: 50px; margin-right: 10px;" onclick="generateReport()">Generate Report (Selected)</button> <button class="btn btn-primary" onclick="generateReport()">Generate Report (All)</button>
-        <h4 id="reportGeneratedLabel" style="margin-left:20%; display: none;">Report Generated. Saved to default location.</h4>
+
     </div>
 </div>
 </body>
