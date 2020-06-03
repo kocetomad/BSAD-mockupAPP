@@ -19,6 +19,16 @@ function formLock(form, boolean) {
     }
 }
 
+function showHideReasonBox() {
+    if (reasonBoxHidden) {
+        reasonBoxHidden = false;
+        document.getElementById("reasonBox").style = "display: block;";
+    } else {
+        reasonBoxHidden = true;
+        document.getElementById("reasonBox").style = "display: none;";
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     // Execute after page has loaded completely
 
@@ -33,3 +43,5 @@ document.addEventListener("DOMContentLoaded", function () {
     //let priorityCheck = document.getElementById("priorityCheck");
     //elementHide(priorityCheck, true);
 });
+
+var reasonBoxHidden = true;
