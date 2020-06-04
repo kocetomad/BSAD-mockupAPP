@@ -39,6 +39,10 @@ function returnToHome() {
     location.href = "../../index.html";
 }
 
+function generateReport() {
+    document.getElementById("reportGeneratedLabel").style.display = "block";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     // Execute after page has loaded completely
 

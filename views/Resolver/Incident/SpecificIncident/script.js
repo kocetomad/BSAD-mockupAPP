@@ -52,6 +52,10 @@ function sendNoteData() {
     addNote(newNoteTime, newNoteDescription, "Juan_Reyes");
 }
 
+function confirmRequest() {
+    document.getElementById("requestConfirmation").style.display = "block";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     // Execute after page has loaded completely
     addNote("27/05/2020 13:20:04", "Upgrading to Priority 1 due to customer-facing nature of incident.", "David_Davison");

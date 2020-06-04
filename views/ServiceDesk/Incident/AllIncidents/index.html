@@ -36,6 +36,7 @@
                     <table class="table table-striped table-hover">
                         <thead>
                         <tr class="table-primary">
+                            <th scope="col">Select</th>
                             <th scope="col"># Incident ID</th>
                             <th scope="col">Description</th>
                             <th scope="col">User Submitted</th>
@@ -51,6 +52,7 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td><input type="checkbox"></td>
                                 <th scope="row">2</th>
                                 <td>HR Timesheets display incorrect dates.</td>
                                 <td>Jane_Fenton</td>
@@ -64,6 +66,7 @@
                                 <td>IMP3</td>
                             </tr>
                         <tr>
+                            <td><input type="checkbox"></td>
                             <th scope="row">3</th>
                             <td>Internal emails bouncing back between some users.</td>
                             <td>Jane_Fenton</td>
@@ -77,6 +80,7 @@
                             <td>IMP3</td>
                         </tr>
                         <tr>
+                            <td><input type="checkbox"></td>
                             <th scope="row">6</th>
                             <td>Customers receiving circular emails multiple times.</td>
                             <td>Jane_Fenton</td>
@@ -90,6 +94,7 @@
                             <td>IMP2</td>
                         </tr>
                         <tr>
+                            <td><input type="checkbox"></td>
                             <th scope="row">10</th>
                             <td>Password reset emails being sent to wrong addresses.</td>
                             <td>Jane_Fenton</td>
@@ -104,6 +109,10 @@
                         </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" style="margin-left: 50px; margin-right: 10px;" onclick="generateReport()">Generate Report (Selected)</button> <button class="btn btn-primary" onclick="generateReport()">Generate Report (All)</button>
+                    <h4 id="reportGeneratedLabel" style="margin-left:20%; display: none;">Report Generated. Saved to default location.</h4>
                 </div>
             </div>
         </div>

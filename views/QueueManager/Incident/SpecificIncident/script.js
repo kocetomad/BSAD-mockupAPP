@@ -52,6 +52,13 @@ function sendNoteData() {
     addNote(newNoteTime, newNoteDescription, "Juan_Reyes");
 }
 
+function updatePriorities() {
+    document.getElementById("priorityLevel").value = "P3";
+    document.getElementById("severityLevel").value = "S3";
+    document.getElementById("impactLevel").value = "IMP3";
+    document.getElementById("request").style.display = "none";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     // Execute after page has loaded completely
     addNote("27/05/2020 13:20:04", "Upgrading to Priority 1 due to customer-facing nature of incident.", "David_Davison");

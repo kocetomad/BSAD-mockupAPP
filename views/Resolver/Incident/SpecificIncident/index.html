@@ -93,7 +93,10 @@
                         </tr>
                         </tbody>
                     </table>
-                    <button class="btn btn-primary">Update Priority Values</button>
+                    <button class="btn btn-primary" onclick="confirmRequest()">Request Update to Priority Values</button>
+                    <div id="requestConfirmation" style="display: none;">
+                        Your request has been sent. Please wait for a Queue Manager to confirm the changes.
+                    </div>
                 </div>
             </div>
             <div class="card mt-5" id="notes">

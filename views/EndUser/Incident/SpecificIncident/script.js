@@ -49,7 +49,7 @@ function sendNoteData() {
     let newNoteTime = dateTime;
     let newNoteDescription = document.getElementById("newNoteDescription").value;
 
-    addNote(newNoteTime, newNoteDescription, "Juan_Reyes");
+    addNote(newNoteTime, newNoteDescription, "Peter_Williams");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
