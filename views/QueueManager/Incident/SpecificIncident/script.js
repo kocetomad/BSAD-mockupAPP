@@ -52,8 +52,11 @@ function sendNoteData() {
     addNote(newNoteTime, newNoteDescription, "Juan_Reyes");
 }
 
-function confirmRequest() {
-    document.getElementById("requestConfirmation").style.display = "block";
+function updatePriorities() {
+    document.getElementById("priorityLevel").value = "P3";
+    document.getElementById("severityLevel").value = "S3";
+    document.getElementById("impactLevel").value = "IMP3";
+    document.getElementById("request").style.display = "none";
 }
 
 document.addEventListener("DOMContentLoaded", function () {
